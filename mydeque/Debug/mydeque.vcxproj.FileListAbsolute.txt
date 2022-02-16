@@ -1,1 +1,2 @@
 D:\prog\pioivis\mydeque\Debug\mydeque.lib
+D:\prog\pioivis_labs\mydeque\Debug\mydeque.lib

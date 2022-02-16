@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "01335fad-d477-4c3e-9b9c-9abc043bb325": {
+      "ProjectGuid": "01335fad-d477-4c3e-9b9c-9abc043bb325",
+      "DisplayName": "lab_deque",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
