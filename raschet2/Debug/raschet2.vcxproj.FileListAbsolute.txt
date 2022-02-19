@@ -1,1 +1,2 @@
 D:\prog\pioivis\raschet2\Debug\raschet2.exe
+D:\prog\pioivis_labs\raschet2\Debug\raschet2.exe

@@ -6,7 +6,7 @@ deque = Deque()
 print('pf -- pushFront', '\t\trf -- removeFront')
 print('pb -- pushBack ', '\t\trb -- removeBack')
 while True:
-    print('\nenter your choice')
+    print('\nEnter your choice')
     string = str(input())
     if string == 'pf':
         print('enter n')
@@ -23,12 +23,12 @@ while True:
             deque.removeFront()
             deque.output()
         else:
-            print('Your deque is empty')
+            print('Error! Your deque is empty')
     elif string == 'rb':
         if not deque.isEmpty():
             deque.removeBack()
             deque.output()
         else:
-            print('Your deque is empty')
+            print('Error! Your deque is empty')
     elif string == 'exit':
         break;

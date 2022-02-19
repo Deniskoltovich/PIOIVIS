@@ -18,5 +18,7 @@ class Deque:
         return self.items.pop()
 
     def output(self):
+        print('deque: [', end=" ")
         for i in self.items:
-            print(i, end= " ")
+            print(i, end=" ")
+        print("]")

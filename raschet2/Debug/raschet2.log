@@ -1,4 +1,1 @@
-﻿  raschet2.cpp
-D:\prog\pioivis\raschet2\raschet2.cpp(68,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-D:\prog\pioivis\raschet2\raschet2.cpp(17): warning C4715: dfs: значение возвращается не при всех путях выполнения
-  raschet2.vcxproj -> D:\prog\pioivis\raschet2\Debug\raschet2.exe
+﻿  raschet2.vcxproj -> D:\prog\pioivis_labs\raschet2\Debug\raschet2.exe
