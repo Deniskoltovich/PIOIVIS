@@ -38,14 +38,9 @@ vector<long long> Dijkstra(vector<vector<pair<int, int>>>& graph, int& n) {
 int main() {
     int n, m;
     vector<vector<pair<int, int>>> graph;
-    string path_in = "path.in.txt";
+    string path_in = "path.in";
     ifstream fin;
     fin.open(path_in);
-        
-    if (!fin.is_open()) {
-        cout << "Input File error!" << endl;
-        return 0;
-    }
    
     fin >> n >> m;
     graph.resize(n);
@@ -59,12 +54,8 @@ int main() {
     fin.close();
     vector<long long> result = Dijkstra(graph, n);
     ofstream fout;
-    string path_out = "path.out.txt";
+    string path_out = "path.out";
     fout.open(path_out);
-    if (!fout.is_open()) {
-        cout << "Output File Error!" << endl;
-        return 0;
-    }
     
     for (int i = 0; i < result.size(); ++i) {
         fout << result[i] << " ";
