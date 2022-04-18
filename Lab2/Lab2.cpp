@@ -49,7 +49,7 @@ int main() {
         int u, v, w;
         fin >> u >> v >> w;
         graph[u - 1].push_back({ v - 1, w });
-        graph[v - 1].push_back({ u - 1, w });
+        graph[v - 1].push_back({ u - 1, w });`
     }
     fin.close();
     vector<long long> result = Dijkstra(graph, n);
